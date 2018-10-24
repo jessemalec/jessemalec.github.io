@@ -1,0 +1,65 @@
+/* Title */
+.buttontext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.colortext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.favtext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.fonttext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.formtext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.icontext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.logotext{
+    float: left;
+    color: black;
+    margin-left: 15px;
+    font-family: 'Coda', cursive;
+}
+
+.name{
+    text-align: center;
+    font-family: 'Coda', cursive;
+}
+
+.newstext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.socialmedtext{
+    font-family: 'Coda', cursive;
+    margin-left: 15px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Coda', cursive;
+}
+
+.titleline{
+    width: 415px;
+    height: 2px;
+    color: black;
+}
+
+/* Logos */
