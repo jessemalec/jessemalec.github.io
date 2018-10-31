@@ -1,65 +1,561 @@
-/* Title */
+main{
+    float: left;
+}
+
+hr{
+    background-color: #064f86;
+}
+
+/* Title --------------------------------------------*/
 .buttontext{
-    font-family: 'Coda', cursive;
-    margin-left: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 10px 40px;
+    text-decoration: underline;
 }
 
 .colortext{
-    font-family: 'Coda', cursive;
-    margin-left: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 20px 40px;
+    text-decoration: underline;
 }
 
 .favtext{
-    font-family: 'Coda', cursive;
-    margin-left: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 20px 40px;
+    text-decoration: underline;
 }
 
 .fonttext{
-    font-family: 'Coda', cursive;
-    margin-left: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 10px 40px;
+    text-decoration: underline;
 }
 
 .formtext{
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 20px 40px;
+    text-decoration: underline;
+}
+
+.formtext2{
     font-family: 'Coda', cursive;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 .icontext{
-    font-family: 'Coda', cursive;
-    margin-left: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 20px 40px;
+    text-decoration: underline;
 }
 
 .logotext{
-    float: left;
     color: black;
-    margin-left: 15px;
-    font-family: 'Coda', cursive;
+    font-family: 'Coda Caption', sans-serif;
+    font-style: inherit;
+    margin: 0 0 20px 40px;
+    text-decoration: underline;
 }
 
 .name{
-    text-align: center;
     font-family: 'Coda', cursive;
+    text-align: center;
 }
 
 .newstext{
     font-family: 'Coda', cursive;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 .socialmedtext{
-    font-family: 'Coda', cursive;
-    margin-left: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 40px 0 20px 40px;
+    text-decoration: underline;
 }
 
 .title{
-    text-align: center;
     font-family: 'Coda', cursive;
+    margin: 20px 0 0 0;
+    text-align: center;
 }
 
 .titleline{
-    width: 415px;
+    background-color: black;
+    border-style: solid;
     height: 2px;
-    color: black;
+    margin-top: 0;
+    width: 426px;
 }
 
-/* Logos */
+
+
+/* Logos ----------------------------------------*/
+
+.favicon1{
+    height: 5.25%;
+    margin: 0 0 35px 40px;
+    width: 5.25%;
+}
+
+.favicon2{
+    height: 1.65%;
+    margin-left: 10px;
+    width: 1.65%;
+}
+
+.favicon3{
+    height: 0.85%;
+    margin-left: 10px;
+    width: 0.85%;
+}
+
+.logoimage{
+    height: 10%;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 10%;
+}
+
+.logoimage2{
+    height: 10%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    width: 23%;
+}
+
+
+
+/* Font Text ------------------------------------*/
+
+.font1{
+    font-family: 'Coda', cursive;
+    font-size: 48pt;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.font2{
+    font-family: 'Coda', cursive;
+    font-size: 36pt;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.font3{
+    font-family: 'Coda', cursive;
+    font-size: 28pt;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.font4{
+    font-family: 'Coda', cursive;
+    font-size: 16pt;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.font5{
+    font-family: 'Coda', cursive;
+    font-size: 12pt;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.font6{
+    font-family: 'Coda', cursive;
+    font-size: 12pt;
+    margin: 0 0 40px 40px;
+}
+
+
+
+/* Buttons ---------------------------------------*/
+
+.button1{
+    background-color: #2f4720;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    margin: 0 0 20px 40px;
+}
+
+.button2{
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    margin: 0 0 20px 5px;
+}
+
+.button3{
+    background-color: #064f86;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    margin: 0 0 20px 5px;
+}
+
+.button4{
+    background-color: #2f4720;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 20px 5px;
+    padding-top: 9px;
+    text-align: center;
+    width: 67px;
+}
+
+.button5{
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 20px 5px;
+    padding-top: 9px;
+    text-align: center;
+    width: 67px;
+}
+
+.button6{
+    background-color: #064f86;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 20px 5px;
+    padding-top: 9px;
+    text-align: center;
+    width: 67px;
+}
+
+.button7{
+    background-color: #2f4720;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    height: 28px;
+    margin: 0 0 40px 40px;
+    width: 145px;
+}
+
+.button8{
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    height: 28px;
+    margin: 0 0 40px 5px;
+    width: 145px;
+}
+
+.button9{
+    background-color: #064f86;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-family: 'Coda', cursive;
+    height: 28px;
+    margin: 0 0 40px 5px;
+    width: 145px;
+}
+
+
+
+/* Color Palette ---------------------------------*/
+
+.circle1{
+    background-color: #2f4720;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 40px 40px;
+    padding-top: 22px;
+    text-align: center;
+    width: 67px;
+}
+
+.circle2{
+    background-color: #603813;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 40px 5px;
+    padding-top: 22px;
+    text-align: center;
+    width: 67px;
+}
+
+.circle3{
+    background-color: #064f86;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 40px 5px;
+    padding-top: 22px;
+    text-align: center;
+    width: 67px;
+}
+
+.circle4{
+    background-color: #38729e;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 40px 5px;
+    padding-top: 22px;
+    text-align: center;
+    width: 67px;
+}
+
+.circle5{
+    background-color: #6a95b6;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 40px 5px;
+    padding-top: 22px;
+    text-align: center;
+    width: 67px;
+}
+
+.circle6{
+    background-color: #cddce7;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Coda', cursive;
+    height: 67px;
+    margin: 0 0 40px 5px;
+    padding-top: 22px;
+    text-align: center;
+    width: 67px;
+}
+
+
+
+/* NewsLetter Form-----------------------------------*/
+
+.newsemailtext{
+    margin: 0 0 0 10px;
+}
+
+.newsletter{
+    background-color: #e6e6e6;
+    border: 2px solid;
+    border-color: #2f4720;
+    border-radius: 4px;
+    height: 30px;
+    margin: 0 0 20px 40px;
+    width: 300px;
+}
+
+
+
+/* Question Form -------------------------------------*/
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.emailbox{
+    background-color: white;
+    border: 2px solid;
+    border-color: #2f4720;
+    border-radius: 4px;
+    height: 22px;
+    margin: 10px 0 0 100px;
+    width: 310px;
+}
+
+.form{
+    background-color: #e6e6e6;
+    border: 3px solid;
+    border-color: #2f4720;
+    border-radius: 4px;
+    height: 169px;
+    margin: 0 0 40px 40px;
+    width: 425px;
+}
+
+.formbutton{
+    border: 2px solid;
+    border-color: #2f4720;
+    border-radius: 4px;
+    float: right;
+    font-family: 'Coda', cursive;
+    font-size: 12px;
+    height: 22px;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    width: 52px;
+}
+
+.formemailtext{
+    float: left;
+    margin: 8px 0 0 0;
+    padding-left: 48px;
+}
+
+.namebox{
+    background-color: white;
+    border: 2px solid;
+    border-color: #2f4720;
+    border-radius: 4px;
+    height: 22px;
+    margin: 10px 0 0 100px;
+    width: 310px;
+}
+
+.nametext{
+    float: left;
+    margin: 8px 0 0 0;
+    padding-left: 44px;
+}
+
+.questionbox{
+    background-color: white;
+    border: 2px solid;
+    border-color: #2f4720;
+    border-radius: 4px;
+    height: 48px;
+    margin: 10px 0 0 100px;
+    width: 310px;
+}
+
+.questiontext{
+    float: left;
+    margin: 8px 0 0 0;
+    padding-left: 15px;
+}
+
+
+
+/* Social Icons ---------------------------------------*/
+
+.socialicon1{
+    height: 42px;
+    margin: 0 0 40px 40px;
+    width: 42px;
+}
+
+.socialicon2{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+
+.socialicon3{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+
+.socialicon4{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+
+.socialicon5{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+
+.socialicon6{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+
+
+
+/* Icons ------------------------------------------------*/
+
+.icon1{
+    height: 42px;
+    margin: 0 0 40px 40px;
+}
+.icon2{
+    height: 42px;
+    margin: 0 0 40px 10px;
+}
+.icon3{
+    height: 42px;
+    margin: 0 0 40px 10px;
+}
+.icon4{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+.icon5{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+.icon6{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+.icon7{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+.icon8{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+.icon9{
+    height: 42px;
+    margin: 0 0 40px 10px;
+    width: 42px;
+}
+.icon10{
+    height: 42px;
+    margin: 5px 0 35px 10px;
+}
+.icon11{
+    height: 42px;
+    margin: 1px 0 34px 10px;
+}
