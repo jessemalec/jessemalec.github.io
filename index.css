@@ -1,0 +1,117 @@
+/* Nav Bar Section -------------------------------------*/
+
+.bg-dark{
+    background-color: #6a95b6 !important;
+    margin: 0 !important;
+}
+
+.btn-outline-success{
+    border-color: #2f4720 !important;
+    color: white !important;
+    font-family: 'Coda', cursive;
+
+}
+
+.buttonnav{
+    margin: 0 20px 0 0;
+}
+
+.form-control{
+    border: 2px solid #2f4720 !important;
+    color: black !important;
+    font-family: 'Coda', cursive;
+    margin-top: 1px;
+}
+
+.mainlogo{
+    margin: 5px 780px 5px 20px;
+    width: 12%;
+}
+
+.nav-link{
+    font-family: 'Coda', cursive;
+    font-size: 16px !important;
+}
+
+/* Main Section ----------------------------------------*/
+.bannermain{
+    margin-top: 20px;
+}
+
+.maintext{
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+}
+
+
+
+/* Footer Section --------------------------------------*/
+
+.bg-info{
+    background-color: #064f86 !important;
+}
+
+.buttonnav2{
+    margin: 22px 35px 0 0;
+}
+
+.col{
+    width: 640px !important;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+
+.footerbar{
+    background-color: #6a95b6;
+    height: 100px;
+    width: auto;
+}
+
+.footerlogo{
+    margin: 23px 0 0 33px;
+    width: 28%;
+}
+
+.hrfooter{
+    background-color: black;
+    height: 70px;
+    margin: 15px 20px 0 0;
+    width: 2px;
+}
+
+.navbar{
+    margin: 0 !important;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: black !important;
+    border-radius: .25rem;
+}
+
+.socialicons1{
+    height: 35%;
+    margin: 34px 10px 10px 396px;
+}
+
+.socialicons2{
+    height: 35%;
+    margin: 34px 10px 10px 10px;
+}
+
+.socialicons3{
+    height: 35%;
+    margin: 34px 10px 10px 10px;
+}
+
+.textft{
+    color: black;
+    font-family: 'Coda', cursive;
+    font-size: 12px;
+    margin: 44px 0 0 0;
+    text-align: center;
+}
