@@ -14,21 +14,36 @@
     <title>White Pine National Park</title>
 </head>
 <body>
-<header>
+    <header>
 
         <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-            <img class="mainlogo" src="images/WhitePine-Logo-3.png" alt="">
+            <a class="logonav" href="index.html"><img class="mainlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Explore</a>
+
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class=" dropdown-item" href="#">Camping</a>
+                            <a class=" dropdown-item" href="#">Local Wildlife</a>
+                            <a class=" dropdown-item" href="#">Things to Do</a>
+                            <a class=" dropdown-item" href="#">Safety Info</a>
+                        </div>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Park Info</a>
+
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Park Info</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class=" dropdown-item" href="#">Contact</a>
+                            <a class=" dropdown-item" href="#">Event Calendar</a>
+                            <a class=" dropdown-item" href="#">FAQ</a>
+                            <a class=" dropdown-item" href="#">Glossary</a>
+                        </div>
                     </li>
+
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Membership</a>
                     </li>
@@ -49,77 +64,148 @@
             </div>
         </nav>
 
-</header>
+    </header>
 
 
-<main role="main" class="container">
-    <div class="bannermain jumbotron">
-        <h1>Welcome to White Pine National Park</h1>
-        <img src="" alt="banner image">
-    </div>
+    <div role="main" class="container jumbotron">
+        <div class="bannermain row">
+            <div>
+                <h1 class="titlemain">Welcome to White Pine National Park</h1>
+            </div>
 
-    <div class="bannermain jumbotron">
-        <h1>Section 2</h1>
-        <img src="" alt="banner image">
-    </div>
+            <img class="bannerimage"  src="images/pine-banner-1.jpg" alt="banner image">
 
-    <div class="bannermain jumbotron">
-        <h1>Section 3</h1>
-    </div>
 
-    <div class="row">
+        </div>
 
-    </div>
+        <!--<hr>-->
 
-    <div class="row">
+        <div class="infomain row ">
+            <h2>History About White Pine</h2>
+            <p>White Pines Forest State Park, more commonly referred to as White Pines State Park, is a Minnesota state park in Bloomington, Minnesota. It is located            near the communities of Creative Communications, and Wild Woods Preserve. The 385-acre (156 ha) park contains the southernmost remaining stand of                 native white pine trees in the state of Minnesota, and that area, 43 acres (17 ha), was designated a Minnesota Nature Preserve in 2000.
+            <br>
+            <br>
+            The area was poised to become a state park in 1903, but a veto by Governor Samuel Rinnah Van Sant prevented that from occurring. Supporters continued             to press for the White Pines Woods, as it was once known, to receive state park designation throughout the period 1903-1927. In 1927 the park was                 established with help from supporters in the Minneapolis media. The park contains two freshwater stream, dolomite rock formations, and a variety of               activities generally associated with Minnesota state parks. Along, one of the park's two streams, fords were constructed instead of bridges allowing              visitors to drive through the creek.
+            </p>
+        </div>
 
-    </div>
-    
-    
-</main>
+        <hr>
 
-<footer class="footerbar row">
+        <div class="bannermain row ">
+            <div class="circle1 col-sm">Map</div>
+            <div class="circle2 col-sm">Popular Spots</div>
+            <div class="circle1 col-sm">Weather</div>
+            <div class="circle3 col-sm">FAQ</div>
+        </div>
 
-    <div class="col">
-        <img class="footerlogo" src="images/WhitePine-Logo-3.png" alt="">
-    </div>
+        <hr>
 
-    <div class="col">
-        <p class="textft" >Copyright 2018</p>
-    </div>
-
-    <div class="col">
-        <img class="socialicons1" src="images/facebook.png" alt="">
-        <img class="socialicons2" src="images/twitter.png" alt="">
-        <img class="socialicons3" src="images/snapchat-black-logo.png" alt="">
-    </div>
-
-    <hr class="hrfooter">
-
-    <div class="footernav">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-info p-4">
-                <h5 class="text-white h4">Menu</h5>
-                <a class="dropdown-item" href="#">Explore</a>
-                <a class="dropdown-item" href="#">Park Info</a>
-                <a class="dropdown-item" href="#">Membership</a>
-                <a class="dropdown-item" href="#">Merchandise</a>
-                <a class="dropdown-item" href="#">Maps</a>
-                <a class="dropdown-item" href="#">Alerts</a>
+        <div class="blognewsmain row mb-2">
+            <div class="col-md-6">
+                <div class="blogmain card flex-md-row mb-4 shadow-sm h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-primary">Blog</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">This Week in the Park</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">At 7 a.m. on Ethel just past Richfield heading toward Bloomington, on side of street where houses back up against the wash.</p>
+                        <a class="btn btn-primary" href="#">Continue reading</a>
+                    </div>
+                    <!--<img class="card-img-right flex-auto d-none d-lg-block" src="" alt="image cap">-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="newslettermain card flex-md-row mb-4 shadow-sm h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-success">Newsletter</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">Join Us Today!</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="card-text mb-auto">Sign up today and get automatic updates on news, sightings, amazing pictures from around the park and much more!</p>
+                        <a class="btn btn-success" href="#">Continue reading</a>
+                    </div>
+                    <!--<img class="card-img-right flex-auto d-none d-lg-block" src="" alt="image cap">-->
+                </div>
             </div>
         </div>
+
+
+        <!--<div class="bannermain row ">-->
+            <!--<h1>This Week in the Park</h1>-->
+        <!--</div>-->
+
+        <hr>
+
+        <div class="bannermain row ">
+
+            <h2>Recent Photos</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="images/pine-banner-2.jpg" alt="Card image cap">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="images/Pine-banner-3.jpg" alt="Card image cap">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="images/pine-banner-4.jpg" alt="Card image cap">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    
+    </div>
+    <footer class="footerbar row">
+
+        <div class="col-sm">
+            <img class="footerlogo" src="images/WhitePine-Logo-3.png" alt="">
+        </div>
+
+        <div class="col-sm">
+            <p class="textft" > &copy Copyright 2018</p>
+            <div class="sociali">
+                <a class="asociallink" href="#"><img class="socialicons" src="images/facebook.png" alt=""></a>
+                <a class="" href="#"><img class="socialicons" src="images/twitter.png" alt=""></a>
+                <a class="" href="#"><img class="socialicons" src="images/snapchat-black-logo.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <hr class="hrfooter">
+
+        <div class="footernav col-1">
+
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <div class="bg-info p-4">
+                    <h5 class="text-white h4">Menu</h5>
+                    <a class="footitem dropdown-item" href="#">Explore</a>
+                    <a class="footitem dropdown-item" href="#">Park Info</a>
+                    <a class="footitem dropdown-item" href="#">Membership</a>
+                    <a class="footitem dropdown-item" href="#">Merchandise</a>
+                    <a class="footitem dropdown-item" href="#">Maps</a>
+                    <a class="footitem dropdown-item" href="#">Alerts</a>
+                </div>
+            </div>
+
         <nav class="navbar navbar-dark bg-dark">
             <button class="buttonnav2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
-    </div>
+        </div>
 
-</footer>
-
-
-
-
+    </footer>
 
 
 <!-- Optional JavaScript -->
