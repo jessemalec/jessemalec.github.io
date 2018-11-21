@@ -124,7 +124,7 @@
 }
 
 .logonav{
-    width: 1041px;
+    width: 996px;
 }
 
 .mainlogo{
@@ -159,6 +159,9 @@
 
 body{
     background-color: #2f4720;
+    /*background-image: url("images/outdoorspic.jpeg");*/
+    /*background-size: 100%;*/
+    /*background-repeat: no-repeat;*/
     font-family: 'Coda', cursive;
 }
 
@@ -269,6 +272,41 @@ hr{
     color: white;
 }
 
+.fa {
+    border-radius: 50%;
+    height: 50px;
+    font-size: 30px;
+    margin-right: 5px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa:hover {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .footerbar{
     background-color: #6a95b6;
     height: 100px;
@@ -276,9 +314,16 @@ hr{
     width: auto;
 }
 
+.footerbar2{
+    background-color: #064f86;
+    height: 50px;
+    max-width: 1920px;
+    width: auto;
+}
+
 .footerlogo{
-    margin: 20px 0 0 36px;
-    width: 20%;
+    margin: 4px 0 0 36px;
+    width: 38%;
 }
 
 .footernav{
@@ -286,11 +331,19 @@ hr{
     padding: 2px 10px 0 0 !important;
 }
 
+.ft1{
+    margin: 0 0 0 75px;
+}
+
 .hrfooter{
     background-color: black;
     height: 70px;
     margin: 15px 0 0 0;
     width: 2px;
+}
+
+.mainfooter{
+
 }
 
 .navbar{
@@ -306,7 +359,7 @@ hr{
 }
 
 .sociali{
-    margin: 25px 0 0 326px;
+    margin: 25px 0 0 90px;
 }
 
 .socialicons1{
@@ -325,10 +378,10 @@ hr{
 }
 
 .textft{
-    color: black;
-    float: left;
+    color: white;
     font-family: 'Coda', cursive;
     font-size: 14px;
-    margin: 44px 0 0 19px;
+    margin: 0 0 0 0;
+    padding: 17px 0 0 0;
     text-align: center;
 }
