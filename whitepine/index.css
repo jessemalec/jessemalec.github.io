@@ -140,9 +140,11 @@
 /* Main Section ----------------------------------------*/
 
 .bannerimage{
+    border-radius: 5px;
     height: 100%;
     margin-bottom: 20px;
     width: 100%;
+
 }
 
 .bannermain{
@@ -261,7 +263,8 @@ hr{
 }
 
 .titlemain{
-    margin: 10px 0 10px 240px;
+    font-family: 'Coda Caption', sans-serif;
+    margin: 10px 0 10px 135px;
 }
 
 .socialicons{
@@ -346,8 +349,8 @@ hr{
 }
 
 .footerlogo{
-    margin: 4px 0 0 36px;
-    width: 38%;
+    margin: 13px 0 0 36px;
+    width: 30%;
 }
 
 .footernav{
