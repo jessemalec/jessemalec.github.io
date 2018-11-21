@@ -159,15 +159,16 @@
 
 body{
     background-color: #2f4720;
-    /*background-image: url("images/outdoorspic.jpeg");*/
-    /*background-size: 100%;*/
-    /*background-repeat: no-repeat;*/
+    /*background-image: url("images/trees.jpeg");*/
+    background-repeat: no-repeat;
     font-family: 'Coda', cursive;
 }
 
 .circle1{
     border-radius: 100%;
     background-color: #064f86;
+    background-image: url("images/europeslostf.jpg");
+    background-size: 145%;
     color: white;
     font-family: 'Coda', cursive;
     font-size: 38px;
@@ -183,6 +184,8 @@ body{
 .circle2{
     border-radius: 100%;
     background-color: #064f86;
+    background-image: url("images/pinesimg.JPG");
+    background-size: 102%;
     color: white;
     font-family: 'Coda', cursive;
     font-size: 38px;
@@ -198,6 +201,25 @@ body{
 .circle3{
     border-radius: 100%;
     background-color: #064f86;
+    background-image: url("images/pinefield.jpg");
+    background-size: 170%;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 100%;
+    padding: 11% 0;
+}
+
+.circle4{
+    border-radius: 100%;
+    background-color: #064f86;
+    background-image: url("images/naturepine.jpg");
+    background-size: 145%;
     color: white;
     font-family: 'Coda', cursive;
     font-size: 38px;
