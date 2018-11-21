@@ -1,3 +1,95 @@
+/*Mobile*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    .asociallink{
+        margin: 0 0 0 0 !important;
+    }
+
+    .btn-outline-success{
+        background-color: #2f4720!important;
+    }
+
+    body{
+        background-color: white !important;
+    }
+
+    .circle1{
+        font-size: 16px!important;
+        margin: 0 5px 0 6px !important;
+        width: 22% !important;
+    }
+
+    .circle2{
+        font-size: 16px!important;
+        margin: 0 5px 0 6px !important;
+        width: 22% !important;
+    }
+
+    .circle3{
+        font-size: 16px!important;
+        margin: 0 3px 0 6px !important;
+        width: 22% !important;
+    }
+
+    .dropdown-item{
+        padding-left: 5px !important;
+    }
+
+    .dropdown-menu{
+        background-color: #064f86 !important;
+    }
+
+    .hrfooter{
+        display: none;
+    }
+
+    .footernav{
+        display: none;
+    }
+
+    .footerlogo{
+        margin: 17px 0 0 10px !important;
+        width: 70% !important;
+    }
+
+    .form-control{
+        margin-right: 12px !important;
+        width: 70% !important;
+    }
+
+    .jumbotron{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .mainlogo{
+        margin: 6px 0 6px 0 !important;
+        padding: 0 !important;
+        width: 58% !important;
+    }
+
+    .navbar-toggler{
+        margin: -55px 0 0 465px !important;
+    }
+
+    .sociali{
+        margin: 25px 0 0 0 !important;
+    }
+
+    .titlemain{
+        font-size: 28px !important;
+        margin: 10px 0 10px 18px!important;
+    }
+
+    .textft{
+        margin: 44px 44px 0 -44px !important;
+    }
+
+}
+
+
 /* Nav Bar Section -------------------------------------*/
 
 .bg-dark{
@@ -16,6 +108,14 @@
     margin: 0 20px 0 0;
 }
 
+.dropdown-item:hover{
+    background-color: white !important;
+}
+
+.dropdown-menu{
+    background-color: #064f86;
+}
+
 .form-control{
     border: 2px solid #2f4720 !important;
     color: black !important;
@@ -23,9 +123,13 @@
     margin-top: 1px;
 }
 
+.logonav{
+    width: 996px;
+}
+
 .mainlogo{
-    margin: 5px 780px 5px 20px;
-    width: 12%;
+    margin: 5px 765px 5px 20px;
+    width: 17%;
 }
 
 .nav-link{
@@ -34,8 +138,95 @@
 }
 
 /* Main Section ----------------------------------------*/
+
+.bannerimage{
+    height: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
 .bannermain{
+    margin: 0;
+}
+
+.blogmain{
     margin-top: 20px;
+}
+
+.blognewsmain{
+    margin: 0;
+}
+
+body{
+    background-color: #2f4720;
+    /*background-image: url("images/outdoorspic.jpeg");*/
+    /*background-size: 100%;*/
+    /*background-repeat: no-repeat;*/
+    font-family: 'Coda', cursive;
+}
+
+.circle1{
+    border-radius: 100%;
+    background-color: #064f86;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 100%;
+    padding: 11% 0;
+}
+
+.circle2{
+    border-radius: 100%;
+    background-color: #064f86;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 20px 20px 0;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 100%;
+    padding: 11% 0;
+ }
+
+.circle3{
+    border-radius: 100%;
+    background-color: #064f86;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 100%;
+    padding: 11% 0;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.infomain{
+    margin: 0 0 0 0;
+}
+
+hr{
+    background-color: #603813;
+}
+
+.jumbotron{
+    background-color: #cddce7;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding: 5px 30px 5px 30px !important;
 }
 
 .maintext{
@@ -43,16 +234,34 @@
     text-align: center;
 }
 
+.newslettermain{
+    margin-top: 20px;
+}
+
+.titlemain{
+    margin: 10px 0 10px 240px;
+}
+
+.socialicons{
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+    width: 30px;
+}
+
 
 
 /* Footer Section --------------------------------------*/
+
+.asociallink{
+    margin: 0 0 0 336px;
+}
 
 .bg-info{
     background-color: #064f86 !important;
 }
 
 .buttonnav2{
-    margin: 22px 35px 0 0;
+    margin: 22px 35px 0 25px;
 }
 
 .col{
@@ -60,25 +269,81 @@
 }
 
 .dropdown-item{
-    color: white !important;
+    color: white;
+}
+
+.fa {
+    border-radius: 50%;
+    height: 50px;
+    font-size: 30px;
+    margin-right: 5px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa:hover {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .footerbar{
     background-color: #6a95b6;
     height: 100px;
+    max-width: 1920px;
+    width: auto;
+}
+
+.footerbar2{
+    background-color: #064f86;
+    height: 50px;
+    max-width: 1920px;
     width: auto;
 }
 
 .footerlogo{
-    margin: 23px 0 0 33px;
-    width: 28%;
+    margin: 4px 0 0 36px;
+    width: 38%;
+}
+
+.footernav{
+    margin-right: -10px;
+    padding: 2px 10px 0 0 !important;
+}
+
+.ft1{
+    margin: 0 0 0 75px;
 }
 
 .hrfooter{
     background-color: black;
     height: 70px;
-    margin: 15px 20px 0 0;
+    margin: 15px 0 0 0;
     width: 2px;
+}
+
+.mainfooter{
+
 }
 
 .navbar{
@@ -91,6 +356,10 @@
     line-height: 1;
     background-color: black !important;
     border-radius: .25rem;
+}
+
+.sociali{
+    margin: 25px 0 0 90px;
 }
 
 .socialicons1{
@@ -109,9 +378,10 @@
 }
 
 .textft{
-    color: black;
+    color: white;
     font-family: 'Coda', cursive;
-    font-size: 12px;
-    margin: 44px 0 0 0;
+    font-size: 14px;
+    margin: 0 0 0 0;
+    padding: 17px 0 0 0;
     text-align: center;
 }
