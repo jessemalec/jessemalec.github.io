@@ -340,7 +340,7 @@ hr{
 
 .footerbar2{
     background-color: #064f86;
-    height: 50px;
+    height: 30px;
     max-width: 1920px;
     width: auto;
 }
@@ -356,7 +356,7 @@ hr{
 }
 
 .ft1{
-    margin: 0 0 0 75px;
+    margin: 0 0 0 60px;
 }
 
 .hrfooter{
@@ -406,6 +406,6 @@ hr{
     font-family: 'Coda', cursive;
     font-size: 14px;
     margin: 0 0 0 0;
-    padding: 17px 0 0 0;
+    padding: 7px 0 0 0;
     text-align: center;
 }
