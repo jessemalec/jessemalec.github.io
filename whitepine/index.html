@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/wp32X32-Favicon.png" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
@@ -17,12 +20,15 @@
 <body>
 <header>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a class="logonav" href="index.html"><img class="mainlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+
+        <a class="logonav navbar-brand" href="index.html"><img class="mainlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExample06" aria-controls="navbarExample06" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <div class="collapse navbar-collapse col-sm" id="navbarExample06">
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item dropdown active">
@@ -62,9 +68,8 @@
                     <a class="nav-link" href="#">Alerts</a>
                 </li>
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
+            <form class="form-inline my-2 my-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="buttonnav btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
@@ -73,21 +78,19 @@
 
 
     <div role="main" class="container jumbotron">
-        <div class="bannermain row">
-            <div>
-                <h1 class="titlemain">Welcome to White Pine National Park</h1>
-            </div>
+        <div class="bannermain row justify-content-sm-center">
+
+            <h1 class="titlemain">Welcome to White Pine National Park</h1>
+
 
             <img class="bannerimage"  src="images/pine-banner-1.jpg" alt="banner image">
 
 
         </div>
 
-        <!--<hr>-->
-
         <div class="infomain row ">
-            <h2>History About White Pine</h2>
-            <p>White Pines Forest State Park, more commonly referred to as White Pines State Park, is a Minnesota state park in Bloomington, Minnesota. It is located            near the communities of Creative Communications, and Wild Woods Preserve. The 385-acre (156 ha) park contains the southernmost remaining stand of                 native white pine trees in the state of Minnesota, and that area, 43 acres (17 ha), was designated a Minnesota Nature Preserve in 2000.
+            <h2 class="infotitle">History About White Pine</h2>
+            <p class="parinfo">White Pines Forest State Park, more commonly referred to as White Pines State Park, is a Minnesota state park in Bloomington, Minnesota. It is located            near the communities of Creative Communications, and Wild Woods Preserve. The 385-acre (156 ha) park contains the southernmost remaining stand of                 native white pine trees in the state of Minnesota, and that area, 43 acres (17 ha), was designated a Minnesota Nature Preserve in 2000.
             <br>
             <br>
             The area was poised to become a state park in 1903, but a veto by Governor Samuel Rinnah Van Sant prevented that from occurring. Supporters continued             to press for the White Pines Woods, as it was once known, to receive state park designation throughout the period 1903-1927. In 1927 the park was                 established with help from supporters in the Minneapolis media. The park contains two freshwater stream, dolomite rock formations, and a variety of               activities generally associated with Minnesota state parks. Along, one of the park's two streams, fords were constructed instead of bridges allowing              visitors to drive through the creek.
@@ -97,10 +100,10 @@
         <hr>
 
         <div class="bannermain row ">
-            <div class="circle1 col-sm">Map</div>
-            <div class="circle2 col-sm">Popular Spots</div>
-            <div class="circle3 col-sm">Weather</div>
-            <div class="circle4 col-sm">FAQ</div>
+            <div class="circle1 col-sm"><a class="circletext" href="#">Map</a></div>
+            <div class="circle2 col-sm"><a class="circletext" href="#">Popular Spots</a></div>
+            <div class="circle3 col-sm"><a class="circletext tx3" href="#">Weather</a></div>
+            <div class="circle4 col-sm"><a class="circletext" href="#">FAQ</a></div>
         </div>
 
         <hr>
@@ -136,16 +139,11 @@
             </div>
         </div>
 
-
-        <!--<div class="bannermain row ">-->
-            <!--<h1>This Week in the Park</h1>-->
-        <!--</div>-->
-
         <hr>
 
         <div class="bannermain row ">
 
-            <h2>Recent Photos</h2>
+            <h2 class="tptext">Top Photos of the Week</h2>
 
             <div class="row">
                 <div class="col-md-4">
@@ -171,18 +169,15 @@
         </div>
     
     </div>
-    <footer class="footerbar row">
+    <footer class="footerbar">
 
-        <div class="col-sm">
+        <nav class="mainfooter navbar navbar-expand-xl navbar-dark bg-dark dropup">
             <a class="navbar-brand" href="#"><img class="footerlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
-        </div>
-
-        <nav class="mainfooter navbar col-sm navbar-expand-sm navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="bottomnav navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse col-sm justify-content-md-center" id="navbarCollapse" >
+                <ul class="navbar-nav">
 
                     <li class="ft1 nav-item active dropup">
                         <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
@@ -196,7 +191,7 @@
 
 
                     <li class="nav-item active dropup">
-                        <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Park Info</a>
+                        <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Park Info</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown10">
                             <a class="dropdown-item" href="#">Contact</a>
                             <a class="dropdown-item" href="#">Event Calendar</a>
@@ -214,22 +209,19 @@
                     <li class="nav-item">
                         <a class="ft5 nav-link active" href="#">Maps</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="albox nav-item">
                         <a class="ft6 nav-link active" href="#">Alerts</a>
                     </li>
 
                 </ul>
+
+                <a class="fa1 fa fa-facebook" href="#"></a>
+                <a class="fa1 fa fa-twitter" href="#"></a>
+                <a class="fa2 fa fa-snapchat-ghost" href="#"></a>
             </div>
+
         </nav>
 
-        <div class="col-sm responsive">
-            <!--<p class="textft" > &copy Webi2023 Jesse Malec</p>-->
-            <div class="sociali">
-                <a class="fa fa-facebook" href="www.facebook.com"></a>
-                <a class="fa fa-twitter" href="www.twitter.com"></a>
-                <a class="fa fa-snapchat-ghost" href="www.snapchat.com"></a>
-            </div>
-        </div>
 
     </footer>
 

@@ -1,7 +1,86 @@
 /*Mobile*/
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
+/* Small devices (landscape phones, 360px and up)--------------------------------------------------*/
+@media (min-width: 360px) and (max-width: 575px){
+
+    .card-text{
+        font-size: 14px;
+    }
+
+    .circletext{
+        font-size: 22px;
+    }
+
+    .fa2{
+        margin-right: 0 !important;
+    }
+
+    .infotitle{
+        font-size: 16px;
+        text-decoration: underline black;
+    }
+
+    .mainlogo{
+        margin: 0!important;
+        width: 159px !important;
+    }
+
+    .parinfo{
+        font-size: 14px;
+    }
+
+    .text-dark{
+        font-size: 22px;
+    }
+
+    .titlemain{
+        font-size: 13px;
+        margin-left: 6px;
+    }
+
+    .tptext{
+        font-size: 20px;
+    }
+
+    .tx3{
+        color: black !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)--------------------------------------------------*/
+@media (min-width: 443px) and (max-width: 575px){
+
+    .fa2 {
+        margin-right: 0 !important;
+    }
+
+    .infotitle{
+        font-size: 18px;
+        text-decoration: underline black;
+    }
+
+    .mainlogo{
+        width: 225px !important;
+    }
+
+    .parinfo{
+        font-size: 14px;
+    }
+
+    .titlemain{
+        font-size: 16px;
+        margin-left: 6px;
+    }
+
+    .tx3 {
+        color: black !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)--------------------------------------------------*/
+@media (min-width: 576px) and (max-width: 768px){
 
     .asociallink{
         margin: 0 0 0 0 !important;
@@ -11,26 +90,8 @@
         background-color: #2f4720!important;
     }
 
-    body{
-        background-color: white !important;
-    }
-
-    .circle1{
-        font-size: 16px!important;
-        margin: 0 5px 0 6px !important;
-        width: 22% !important;
-    }
-
-    .circle2{
-        font-size: 16px!important;
-        margin: 0 5px 0 6px !important;
-        width: 22% !important;
-    }
-
-    .circle3{
-        font-size: 16px!important;
-        margin: 0 3px 0 6px !important;
-        width: 22% !important;
+    .circletext{
+        font-size: 12px;
     }
 
     .dropdown-item{
@@ -59,19 +120,11 @@
         width: 70% !important;
     }
 
-    .jumbotron{
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
-    }
+
 
     .mainlogo{
         margin: 6px 0 6px 0 !important;
         padding: 0 !important;
-        width: 58% !important;
-    }
-
-    .navbar-toggler{
-        margin: -55px 0 0 465px !important;
     }
 
     .sociali{
@@ -79,8 +132,7 @@
     }
 
     .titlemain{
-        font-size: 28px !important;
-        margin: 10px 0 10px 18px!important;
+        font-size: 22px !important;
     }
 
     .textft{
@@ -89,8 +141,88 @@
 
 }
 
+/* Ipad Pro devices (landscape, 768px and up)--------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px){
 
-/* Nav Bar Section -------------------------------------*/
+    .card-text{
+        font-size: 14px;
+    }
+
+    .circletext{
+        font-size: 22px;
+    }
+
+    .infotitle{
+        font-size: 26px;
+    }
+
+    .parinfo{
+        font-size: 14px;
+    }
+
+    .titlemain{
+        font-size: 28px !important;
+
+    }
+
+    .text-dark{
+        font-size: 25px;
+    }
+
+    .tptext{
+        font-size: 25px;
+    }
+
+}
+
+
+/* Ipad Pro devices (landscape, 1024px and up)--------------------------------------------------*/
+@media (min-width: 1024px) and (max-width: 768px){
+
+    .buttonnav{
+        display: none !important;
+    }
+
+
+    .circletext{
+        font-size: 30px;
+    }
+
+    .footerlogo{
+        margin: 2px 0 0 0 !important;
+    }
+
+    .logonav{
+        width: 330px !important;
+    }
+
+    .mainlogo{
+        margin: 0 !important;
+        width: 230px !important;
+    }
+
+    .textft{
+        font-size: 13px !important;
+        padding: 7px 0 0 0 !important;
+    }
+
+    .titlemain{
+        font-size: 32px;
+    }
+
+
+}
+
+/* Ipad Pro devices (landscape, 1920px and up)--------------------------------------------------*/
+@media (min-width: 1024px) and (max-width: 1920px){
+
+    .circletext{
+        font-size: 34px;
+    }
+}
+
+
+/* Nav Bar Section ----------------------------------------------------------------------------*/
 
 .bg-dark{
     background-color: #6a95b6 !important;
@@ -101,11 +233,10 @@
     border-color: #2f4720 !important;
     color: white !important;
     font-family: 'Coda', cursive;
-
 }
 
-.buttonnav{
-    margin: 0 20px 0 0;
+button.buttonnav.btn-outline-success.my-2.my-sm-0:hover{
+    background-color: #2f4720;
 }
 
 .dropdown-item:hover{
@@ -124,12 +255,12 @@
 }
 
 .logonav{
-    width: 996px;
+    margin: 0 93px 0 0;
 }
 
 .mainlogo{
-    margin: 5px 765px 5px 20px;
-    width: 17%;
+    margin: 5px 0 5px 20px;
+    width: 230px;
 }
 
 .nav-link{
@@ -139,12 +270,23 @@
 
 /* Main Section ----------------------------------------*/
 
+a.btn-primary:hover{
+    background-color: #064f86;
+}
+
+a.btn.btn-success{
+    margin-top: 10px;
+}
+
+a.btn.btn-primary{
+    margin-top: 10px;
+}
+
 .bannerimage{
     border-radius: 5px;
     height: 100%;
     margin-bottom: 20px;
     width: 100%;
-
 }
 
 .bannermain{
@@ -160,7 +302,7 @@
 }
 
 body{
-    background-color: #2f4720;
+    background-color: #cddce7;
     /*background-image: url("images/trees.jpeg");*/
     background-repeat: no-repeat;
     font-family: 'Coda', cursive;
@@ -168,7 +310,6 @@ body{
 
 .circle1{
     border-radius: 100%;
-    background-color: #064f86;
     background-image: url("images/europeslostf.jpg");
     background-size: 145%;
     color: white;
@@ -234,6 +375,26 @@ body{
     padding: 11% 0;
 }
 
+.circletext{
+    color: white;
+}
+
+.circle1:hover{
+    opacity: 0.8;
+}
+
+.circle2:hover{
+    opacity: 0.8;
+}
+
+.circle3:hover{
+    opacity: 0.8;
+}
+
+.circle4:hover{
+    opacity: 0.8;
+}
+
 .container{
     max-width: 1200px;
 }
@@ -243,12 +404,11 @@ body{
 }
 
 hr{
-    background-color: #603813;
+    background-color: #2f4720;
 }
 
 .jumbotron{
     background-color: #cddce7;
-    margin-bottom: 35px;
     margin-top: 35px;
     padding: 5px 30px 5px 30px !important;
 }
@@ -258,13 +418,21 @@ hr{
     text-align: center;
 }
 
+.morebutton{
+    background-color: #2f4720;
+    width: 50px;
+}
+
 .newslettermain{
     margin-top: 20px;
 }
 
 .titlemain{
     font-family: 'Coda Caption', sans-serif;
-    margin: 10px 0 10px 135px;
+}
+
+.tptext{
+    margin-top: 15px;
 }
 
 .socialicons{
@@ -276,6 +444,10 @@ hr{
 
 
 /* Footer Section --------------------------------------*/
+
+.albox{
+    margin-right: 3px;
+}
 
 .asociallink{
     margin: 0 0 0 336px;
@@ -289,29 +461,31 @@ hr{
     margin: 22px 35px 0 25px;
 }
 
-.col{
-    width: 640px !important;
-}
-
 .dropdown-item{
     color: white;
 }
 
 .fa {
     border-radius: 50%;
-    height: 50px;
-    font-size: 30px;
-    margin-right: 5px;
-    padding: 12px;
+    height: 36px;
+    font-size: 24px;
+    padding: 7px 0 0 0;
     text-align: center;
     text-decoration: none;
-    width: 50px;
+    width: 36px;
+}
+
+.fa1{
+    margin-right: 10px !important;
+}
+
+.fa2{
+    margin-right: 286px;
 }
 
 .fa-facebook {
     background: #3B5998;
     color: white;
-    margin: 0 5px 0 325px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -337,7 +511,7 @@ hr{
 .footerbar{
     background-color: #6a95b6;
     height: 100px;
-    max-width: 1920px;
+    max-width: 1918px;
     width: auto;
 }
 
@@ -349,8 +523,8 @@ hr{
 }
 
 .footerlogo{
-    margin: 13px 0 0 36px;
-    width: 30%;
+    margin: 0 0 0 20px;
+    width: 200px;
 }
 
 .footernav{
@@ -409,6 +583,6 @@ hr{
     font-family: 'Coda', cursive;
     font-size: 14px;
     margin: 0 0 0 0;
-    padding: 7px 0 0 0;
+    padding: 6px 0 0 0;
     text-align: center;
 }
