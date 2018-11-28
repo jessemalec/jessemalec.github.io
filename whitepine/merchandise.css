@@ -1,0 +1,69 @@
+/* Main Section ---------------------------------------------------------------- */
+
+.col{
+    max-width: 31.74% !important;
+}
+
+.col-8{
+    flex: 0 0 62.666667% !important;
+}
+
+.featuretext{
+    color: white;
+    text-align: center;
+}
+
+.featuresection{
+background-color: black;
+    border-radius: 5px;
+    height: 380px;
+    margin: 0 0 0 0;
+    width: 280px;
+}
+
+.imagebox{
+    background-color: grey;
+    border-radius: 5px;
+    height: 380px;
+    margin: 0 30px 10px 0;
+    width: 830px;
+}
+
+.itemsection1{
+     background-color: black;
+     height: 300px;
+     margin: 20px 20px 0 0;
+     width: 300px;
+ }
+
+.itemsection2{
+    background-color: red;
+    height: 300px;
+    margin: 20px 20px 0 0;
+    width: 300px;
+}
+
+.itemsection3{
+    background-color: blue;
+    height: 300px;
+    margin: 20px 0 0 0;
+    width: 300px;
+}
+
+.test{
+    background-color: #2f4720;
+    height: 100px;
+    float: left;
+    width: 100px;
+}
+
+.titlemerch{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Footer Section -------------------------------------------------------------- */
+
+.row{
+    margin-left: 0;
+}
