@@ -1,3 +1,14 @@
-.row{
-    margin-left: 0;
+/* Main Section --------------------------------------*/
+
+.membanner{
+    border-radius: 5px;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 100%;
 }
+
+.weekimg{
+    margin-bottom: 14px;
+}
+
+/* Footer Section --------------------------------------*/
