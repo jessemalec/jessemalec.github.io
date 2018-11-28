@@ -18,12 +18,15 @@
 
 <header>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a class="logonav" href="index.html"><img class="mainlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+
+        <a class="logonav navbar-brand" href="index.html"><img class="mainlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExample06" aria-controls="navbarExample06" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <div class="collapse navbar-collapse col-sm" id="navbarExample06">
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item dropdown active">
@@ -63,9 +66,8 @@
                     <a class="nav-link" href="#">Alerts</a>
                 </li>
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
+            <form class="form-inline my-2 my-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="buttonnav btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
@@ -142,43 +144,66 @@
 
 </div>
 
-<footer class="footerbar row">
+<footer class="footerbar">
 
-    <div class="col-sm">
-        <img class="footerlogo" src="images/WhitePine-Logo-3.png" alt="">
-    </div>
+    <nav class="mainfooter navbar navbar-expand-xl navbar-dark bg-dark dropup">
+        <a class="navbar-brand" href="#"><img class="footerlogo" src="images/WhitePine-Logo-3.png" alt=""></a>
+        <button class="bottomnav navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-sm justify-content-md-center" id="navbarCollapse" >
+            <ul class="navbar-nav">
 
-    <div class="col-sm">
-        <p class="textft" > &copy Copyright 2018</p>
-        <div class="sociali">
-            <a class="asociallink" href="#"><img class="socialicons" src="images/facebook.png" alt=""></a>
-            <a class="" href="#"><img class="socialicons" src="images/twitter.png" alt=""></a>
-            <a class="" href="#"><img class="socialicons" src="images/snapchat-black-logo.png" alt=""></a>
+                <li class="ft1 nav-item active dropup">
+                    <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                        <a class="dropdown-item" href="#">Camping</a>
+                        <a class="dropdown-item" href="#">Local Wildlife</a>
+                        <a class="dropdown-item" href="#">Things to Do</a>
+                        <a class="dropdown-item" href="#">Safety Info</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item active dropup">
+                    <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Park Info</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                        <a class="dropdown-item" href="#">Contact</a>
+                        <a class="dropdown-item" href="#">Event Calendar</a>
+                        <a class="dropdown-item" href="#">FAQ</a>
+                        <a class="dropdown-item" href="#">Glossary</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="ft3 nav-link active" href="#">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a class="ft4 nav-link active" href="#">Merchandise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="ft5 nav-link active" href="#">Maps</a>
+                </li>
+                <li class="albox nav-item">
+                    <a class="ft6 nav-link active" href="#">Alerts</a>
+                </li>
+
+            </ul>
+
+            <a class="fa1 fa fa-facebook" href="#"></a>
+            <a class="fa1 fa fa-twitter" href="#"></a>
+            <a class="fa2 fa fa-snapchat-ghost" href="#"></a>
         </div>
 
-    </div>
+    </nav>
 
-    <hr class="hrfooter">
 
-    <div class="footernav col-1">
+</footer>
 
-        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-            <div class="bg-info p-4">
-                <h5 class="text-white h4">Menu</h5>
-                <a class="footitem dropdown-item" href="#">Explore</a>
-                <a class="footitem dropdown-item" href="#">Park Info</a>
-                <a class="footitem dropdown-item" href="#">Membership</a>
-                <a class="footitem dropdown-item" href="#">Merchandise</a>
-                <a class="footitem dropdown-item" href="#">Maps</a>
-                <a class="footitem dropdown-item" href="#">Alerts</a>
-            </div>
-        </div>
+<footer class="footerbar2">
 
-        <nav class="navbar navbar-dark bg-dark">
-            <button class="buttonnav2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
+    <div>
+        <p class="textft" > &copy Webi2023 Jesse Malec</p>
     </div>
 
 </footer>
