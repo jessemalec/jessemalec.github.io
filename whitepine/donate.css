@@ -1,3 +1,44 @@
+.doncircle1{
+    border-radius: 100%;
+    background-color: #2f4720;
+    background-size: 145%;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 0;
+    padding: 8% 5%;
+}
+
+.doncircletext{
+    text-align: center;
+}
+
+.imgbox{
+    background-color: black;
+    height: 400px;
+}
+
+.imgbox1{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+
+}
+
+.hrbar{
+    background-color: black;
+    height: 330px;
+    margin: 20px 0 0 0;
+    padding: 0 0;
+    width: 1px;
+}
+
+
 .row{
     margin-left: 0;
 }

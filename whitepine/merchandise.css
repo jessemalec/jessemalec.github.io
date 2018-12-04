@@ -21,6 +21,10 @@ background-color: black;
     width: 280px;
 }
 
+.form-group{
+    width: 67px;
+}
+
 .imagebox{
     background-color: grey;
     border-radius: 5px;
@@ -48,6 +52,10 @@ background-color: black;
     height: 300px;
     margin: 20px 0 0 0;
     width: 300px;
+}
+
+label{
+    margin-bottom: 0;
 }
 
 .test{
