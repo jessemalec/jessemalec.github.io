@@ -1,5 +1,21 @@
 /* Main Section --------------------------------------*/
 
+.anntop{
+
+}
+
+.annbot{
+
+}
+
+.famtop{
+
+}
+
+.fambot{
+    margin-bottom: 0;
+}
+
 .membanner{
     border-radius: 5px;
     height: 100%;
@@ -9,6 +25,14 @@
 
 .weekimg{
     margin-bottom: 14px;
+}
+
+.weektop{
+
+}
+
+.underlinetext{
+    text-decoration: underline;
 }
 
 /* Footer Section --------------------------------------*/

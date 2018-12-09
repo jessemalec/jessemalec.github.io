@@ -1,5 +1,22 @@
 /* Main Section ---------------------------------------------------------------- */
 
+.bannermain2{
+    border-radius: calc(.25rem - 1px);
+    width: 100%;
+}
+
+.orderbutton{
+    color: white;
+    background-color: #064f86;
+    border-color: black;
+}
+
+.orderbutton:hover{
+    background-color: #2f4720;
+    border-color: black;
+    color: white;
+}
+
 .col{
     max-width: 31.74% !important;
 }
@@ -8,54 +25,146 @@
     flex: 0 0 62.666667% !important;
 }
 
+.featureimg{
+    margin-left: 73px;
+    width: 59%;
+}
+
 .featuretext{
-    color: white;
+    color: black;
+    margin: 22px 0 15px 0;
     text-align: center;
+    text-decoration: underline;
 }
 
 .featuresection{
-background-color: black;
-    border-radius: 5px;
-    height: 380px;
+    background-color: white;
+    border-color: #064f86;
+    border-style: solid;
+    border-radius: calc(.25rem - 1px);
+    height: 386px;
     margin: 0 0 0 0;
     width: 280px;
 }
 
+.feattext{
+    margin: 0 0 0 0;
+    padding: 15px 0 0 101px;
+}
+
 .form-group{
+    margin: 0 0 0 0;
     width: 67px;
 }
 
+.imgboxes1{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes2{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes3{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes4{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes5{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes6{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes7{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes8{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
+.imgboxes9{
+    margin: 15px 0 0 82px;
+    width: 50%;
+}
+
 .imagebox{
-    background-color: grey;
-    border-radius: 5px;
-    height: 380px;
-    margin: 0 30px 10px 0;
-    width: 830px;
+    padding: 0 15px 0 0;
+    /*background-color: grey;*/
+    /*border-radius: 5px;*/
+    /*height: 380px;*/
+    /*margin: 0 30px 10px 0;*/
+    /*width: 830px;*/
 }
 
 .itemsection1{
-     background-color: black;
+     background-color: white;
+     border-color: #064f86;
+     border-style: solid;
+     border-radius: calc(.25rem - 1px);
+     color: black;
      height: 300px;
-     margin: 20px 20px 0 0;
+     margin: 15px 10px 0 0;
      width: 300px;
  }
 
 .itemsection2{
-    background-color: red;
+    background-color: white;
+    border-color: #064f86;
+    border-style: solid;
+    border-radius: calc(.25rem - 1px);
+    color: black;
     height: 300px;
-    margin: 20px 20px 0 0;
+    margin: 15px 10px 0 0;
     width: 300px;
 }
 
 .itemsection3{
-    background-color: blue;
+    background-color: white;
+    border-color: #064f86;
+    border-style: solid;
+    border-radius: calc(.25rem - 1px);
+    color: black;
     height: 300px;
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
     width: 300px;
 }
 
 label{
     margin-bottom: 0;
+}
+
+.mercrow1{
+    margin-top: 0;
+}
+
+.orderbutton{
+    color: white;
+    background-color: #064f86;
+    border-color: black;
+    height: 38px;
+    margin: 25px 0 0 15px;
+    padding-top: 7px;
+}
+
+.orderbutton:hover{
+    background-color: #2f4720;
+    border-color: black;
+    color: white;
 }
 
 .test{
@@ -66,8 +175,12 @@ label{
 }
 
 .titlemerch{
-    margin-top: 10px;
-    text-align: center;
+    background-color: black;
+    border-top-color: #064f86;
+    border-bottom-color: #064f86;
+    border-style: solid;
+    color: white;
+    margin-bottom: 15px;
 }
 
 /* Footer Section -------------------------------------------------------------- */

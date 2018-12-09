@@ -1,3 +1,34 @@
+.btn-secondary{
+    background-color: #064f86;
+    margin: 0 0 10px 42px;
+    width: 100%;
+}
+
+.btn-secondary:hover{
+    background-color: #2f4720;
+}
+
+.donatebutton1{
+    background-color: #064f86;
+    margin: 35px 0 10px 42px;
+    width: 100%;
+}
+
+.donateimg{
+    border: solid 5px #2f4720;
+    width: 100%;
+}
+
+.donateimg2:hover{
+    opacity: 0.8;
+}
+
+.donateimg2{
+    border: solid 5px #2f4720;
+    margin: 0 0 0 42px;
+    width: 100%;
+}
+
 .doncircle1{
     border-radius: 100%;
     background-color: #2f4720;
@@ -14,20 +45,23 @@
     padding: 8% 5%;
 }
 
+.doncircle1:hover{
+    opacity: 0.8;
+}
+
 .doncircletext{
+    color: white;
     text-align: center;
 }
 
-.imgbox{
-    background-color: black;
-    height: 400px;
+.doncircletext:hover{
+    color: black;
+    text-decoration: underline
 }
 
-.imgbox1{
-    background-color: black;
-    height: 200px;
-    width: 200px;
-
+.donname{
+    font-size: 20px;
+    margin: 0 0 0 0;
 }
 
 .hrbar{
@@ -36,6 +70,23 @@
     margin: 20px 0 0 0;
     padding: 0 0;
     width: 1px;
+}
+
+.moneydif{
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+.moneydon{
+    font-size: 52px;
+    height: 60px;
+    margin: 20px 0 0 0;
+}
+
+.numberdon{
+    font-size: 52px;
+    margin: 124px 0 0 0;
+    height: 52px;
 }
 
 

@@ -302,8 +302,6 @@ a.btn.btn-primary{
 
 body{
     background-color: #cddce7;
-    /*background-image: url("images/trees.jpeg");*/
-    background-repeat: no-repeat;
     font-family: 'Coda', cursive;
 }
 
@@ -325,7 +323,6 @@ body{
 
 .circle2{
     border-radius: 100%;
-    background-color: #064f86;
     background-image: url("images/pined-trees-2.jpg");
     background-size: 143%;
     color: white;
@@ -342,7 +339,6 @@ body{
 
 .circle3{
     border-radius: 100%;
-    background-color: #064f86;
     background-image: url("images/pinefield.jpg");
     background-size: 170%;
     color: white;
@@ -359,7 +355,6 @@ body{
 
 .circle4{
     border-radius: 100%;
-    background-color: #064f86;
     background-image: url("images/naturepine.jpg");
     background-size: 145%;
     color: white;
