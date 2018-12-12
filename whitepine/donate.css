@@ -1,3 +1,114 @@
+/* Mobile Section ------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 360px){
+
+    .btn-secondary{
+        margin: 0 0 10px 0 !important;
+    }
+
+    .donatebutton1{
+        margin: 35px 0 10px 0 !important;
+    }
+
+    .donateimg2{
+        margin: 0 !important;
+    }
+
+    .donname{
+        font-size: 20px !important;
+    }
+
+    .doncircle1 {
+        height: 42px !important;
+        width: 220px !important;
+
+    }
+
+    .doncircletext{
+
+    }
+
+    h1{
+        font-size: 28px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 28px;
+        margin-left: 51px;
+    }
+
+    .hrbar{
+        display: none;
+    }
+
+    .moneydif{
+        font-size: 20px !important;
+        margin: 0 0 10px 0 !important;
+    }
+
+    .moneydon{
+        font-size: 40px !important;
+        height: 42px !important;
+        margin: 20px 0 0 0 !important;
+    }
+
+    .numberdon{
+        font-size: 40px !important;
+        height: 42px !important;
+        margin: 0 0 0 0 !important;
+    }
+
+    .text-right{
+        text-align: center !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+    h1{
+        font-size: 32px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .circles{
+        width: 100%;
+    }
+
+    .doncircle01{
+        margin: 20px 10px 20px 0 !important;
+        padding: 9% 5% !important;
+    }
+
+    .doncircle1{
+        margin: 20px 10px 20px 0 !important;
+        padding: 9% 5% !important;
+    }
+
+    .doncircle2{
+        margin: 20px 0 20px 0 !important;
+        padding: 9% 5% !important;
+    }
+
+
+    .numberdon{
+        margin: 39px 0 0 0 !important;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+}
+
+@media (min-width: 1024px) and (max-width: 1400px){
+
+}
+
+/* Main Section */
+
 .btn-secondary{
     background-color: #064f86;
     margin: 0 0 10px 42px;
@@ -29,6 +140,22 @@
     width: 100%;
 }
 
+.doncircle01{
+    border-radius: 100%;
+    background-color: #2f4720;
+    background-size: 145%;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 10px 20px 20px;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 0;
+    padding: 8% 5%;
+}
+
 .doncircle1{
     border-radius: 100%;
     background-color: #2f4720;
@@ -45,7 +172,31 @@
     padding: 8% 5%;
 }
 
+.doncircle2{
+    border-radius: 100%;
+    background-color: #2f4720;
+    background-size: 145%;
+    color: white;
+    font-family: 'Coda', cursive;
+    font-size: 38px;
+    line-height: 0;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    display: block;
+    height: 0;
+    width: 0;
+    padding: 8% 5%;
+}
+
+.doncircle01:hover{
+    opacity: 0.8;
+}
+
 .doncircle1:hover{
+    opacity: 0.8;
+}
+
+.doncircle2:hover{
     opacity: 0.8;
 }
 
@@ -66,7 +217,7 @@
 
 .hrbar{
     background-color: black;
-    height: 330px;
+    height: 340px;
     margin: 20px 0 0 0;
     padding: 0 0;
     width: 1px;
@@ -88,7 +239,6 @@
     margin: 124px 0 0 0;
     height: 52px;
 }
-
 
 .row{
     margin-left: 0;

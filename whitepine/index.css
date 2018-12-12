@@ -1,5 +1,44 @@
 /*Mobile*/
 
+@media (min-width: 320px) and (max-width: 360px){
+
+    .bottomnav{
+        margin: 5px 0 0 0 !important;
+    }
+
+    .circletext{
+        font-size: 24px;
+    }
+
+    .footerlogo{
+        margin: 5px 0 0 0 !important;
+        width: 175px !important;
+    }
+
+    .infotitle{
+        font-size: 23px;
+        text-decoration: underline black;
+    }
+
+    .mainlogo{
+        margin: 0!important;
+        width: 139px !important;
+    }
+
+    .parinfo{
+        font-size: 14px !important;
+    }
+
+    .titlemain{
+        font-size: 15px !important;
+        text-align: center;
+    }
+
+    .tx3{
+        color: black !important;
+    }
+}
+
 /* Small devices (landscape phones, 360px and up)--------------------------------------------------*/
 @media (min-width: 360px) and (max-width: 575px){
 
@@ -79,7 +118,7 @@
 }
 
 /* Small devices (landscape phones, 576px and up)--------------------------------------------------*/
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: 576px) and (max-width: 767px){
 
     .asociallink{
         margin: 0 0 0 0 !important;
@@ -140,8 +179,8 @@
 
 }
 
-/* Ipad Pro devices (landscape, 768px and up)--------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 1024px){
+/* Ipad Pro devices (landscape, 767px and up)--------------------------------------------------*/
+@media (min-width: 767px) and (max-width: 1024px){
 
     .card-text{
         font-size: 14px;
@@ -209,7 +248,6 @@
         font-size: 32px;
     }
 
-
 }
 
 /* Ipad Pro devices (landscape, 1920px and up)--------------------------------------------------*/
@@ -219,7 +257,6 @@
         font-size: 34px;
     }
 }
-
 
 /* Nav Bar Section ----------------------------------------------------------------------------*/
 

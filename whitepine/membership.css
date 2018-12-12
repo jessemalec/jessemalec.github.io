@@ -1,3 +1,77 @@
+/* Mobile Section ------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 359px){
+
+    .membanner{
+        margin-bottom: 10px !important;
+    }
+
+    .memtext{
+        background: none !important;
+        border: none !important;
+        color: black !important;
+        font-size: 28px !important;
+        margin-bottom: 0 !important;
+        margin-left: 52px !important;
+        width: 65% !important;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 575px){
+
+    .memtext{
+        background: none !important;
+        border: none !important;
+        color: black !important;
+        margin-bottom: 0 !important;
+        margin-left: 40px !important;
+        width: 67% !important;
+    }
+
+}
+
+@media (min-width: 443px) and (max-width: 575px){
+
+    .memtext{
+        background: none !important;
+        border: none !important;
+        color: black !important;
+        margin-bottom: 0 !important;
+        margin-left: 80px !important;
+        width: 79% !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+    button.btn.btn-block.btn-primary{
+        font-size: 16px;
+    }
+
+    li{
+        font-size: 13px;
+    }
+
+    .memtext{
+        font-size: 32px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    li{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px){
+
+    li{
+        font-size: 14px;
+    }
+}
+
 /* Main Section --------------------------------------*/
 
 .anntop{
@@ -5,7 +79,15 @@
 }
 
 .annbot{
+text-decoration: underline;
+}
 
+.annbox{
+
+}
+
+.container{
+    /*max-height: 1236px;*/
 }
 
 .famtop{
@@ -13,6 +95,15 @@
 }
 
 .fambot{
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.fambox{
+
+}
+
+.jumbotron{
     margin-bottom: 0;
 }
 
@@ -23,8 +114,24 @@
     width: 100%;
 }
 
+.memtext{
+    background-color: black;
+    border-top-color: #064f86;
+    border-bottom-color: #064f86;
+    border-style: solid;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.passesbox{
+
+}
+
 .weekimg{
     margin-bottom: 14px;
+    margin-top: 5px;
 }
 
 .weektop{

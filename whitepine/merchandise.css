@@ -1,3 +1,248 @@
+/* Mobile Section ------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 360px){
+
+    .bannermain2{
+        margin-bottom: 10px !important;
+        width: 102% !important;
+    }
+
+    .container{
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .feattext{
+        padding: 15px 0 0 42px !important;
+    }
+
+    .featureimg{
+        margin-left: 48px !important;
+    }
+
+    .featuresection{
+        width: 265px !important;
+    }
+
+    .imgboxes1{
+        margin: 40px 0 0 58px !important;
+    }
+    .imgboxes2{
+        margin: 18px 0 0 59px !important;
+    }
+    .imgboxes3{
+        margin: 40px 0 0 58px !important;
+    }
+    .imgboxes4{
+        margin: 40px 0 0 58px !important;
+    }
+    .imgboxes5{
+        margin: 44px 0 0 69px !important;
+    }
+    .imgboxes6{
+        margin: 45px 0 0 26px !important;
+    }
+    .imgboxes7{
+        margin: 40px 0 0 58px !important;
+    }
+    .imgboxes8{
+        margin: 32px 0 28px 70px !important;
+    }
+    .imgboxes9{
+        margin: 28px 0 0 29px !important;
+    }
+
+    .itemsection3{
+        width: 265px !important;
+    }
+
+    .orderbutton{
+        margin: 20px 0 0 0 !important;
+        width: 149px !important;
+    }
+
+    .titlemerch{
+        background: none !important;
+        border: none !important;
+        color: black !important;
+        font-size: 24px !important;
+        margin-bottom: 5px !important;
+        margin-left: 45px !important;
+        text-align: center;
+        width: 65% !important;
+
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px){
+
+    .featureimg{
+        margin-left: 43px !important;
+    }
+
+    .featuretext{
+        font-size: 28px !important;
+        margin: 6px 0 10px 0 !important;
+    }
+
+    .featuresection{
+        height: 239px !important;
+    }
+
+    .feattext{
+        padding: 0 !important;
+    }
+
+    .form-control{
+        height: 30px;
+        margin: 0 0 0 0 !important;
+        width: 90% !important;
+    }
+
+    .itemsection1{
+        height: 225px !important;
+    }
+
+    .itemsection2{
+        height: 225px !important;
+    }
+
+    .itemsection3{
+        height: 225px !important;
+    }
+
+    .imgboxes1{
+        margin: 40px 0 0 51px !important;
+    }
+    .imgboxes2{
+        margin: 18px 0 0 52px !important;
+    }
+    .imgboxes3{
+        margin: 40px 0 0 51px !important;
+    }
+    .imgboxes4{
+        margin: 40px 0 0 51px !important;
+    }
+    .imgboxes5{
+        margin: 44px 0 0 61px !important;
+    }
+    .imgboxes6{
+        margin: 45px 0 0 22px !important;
+    }
+    .imgboxes7{
+        margin: 40px 0 0 51px !important;
+    }
+    .imgboxes8{
+        margin: 32px 0 28px 62px !important;
+    }
+    .imgboxes9{
+        margin: 28px 0 0 25px !important;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    .orderbutton{
+        height: 30px !important;
+        margin: 24px 0 0 0 !important;
+        padding: 0 7px 0 7px !important;
+    }
+
+    .titlemerch{
+        font-size: 32px;
+    }
+
+    .qtyform-group{
+        margin: 0 0 0 0 !important;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .feattext{
+        padding: 15px 0 0 29px !important;
+    }
+
+    .featureimg{
+        margin-left: 62px !important;
+    }
+
+    .featuresection{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .featuretext{
+        margin: 10px 0 10px 0 !important;
+    }
+
+    .f5{
+        padding: 20px 0 0 29px !important;
+    }
+
+    .f6{
+        padding: 22px 0 0 29px !important;
+    }
+
+    .ft10{
+        padding: 12px 0 17px 29px !important;
+    }
+
+    .imgboxes1{
+        margin: 40px 0 0 71px !important;
+    }
+    .imgboxes2{
+        margin: 9px 0 0 73px !important;
+    }
+    .imgboxes3{
+        margin: 40px 0 0 68px !important;
+    }
+    .imgboxes4{
+        margin: 40px 0 0 69px !important;
+    }
+    .imgboxes5{
+        margin: 40px 0 0 87px !important;
+    }
+    .imgboxes6{
+        margin: 40px 0 0 42px !important;
+    }
+    .imgboxes7{
+        margin: 40px 0 0 73px !important;
+    }
+    .imgboxes8{
+        margin: 40px 0 28px 85px !important;
+    }
+    .imgboxes9{
+        margin: 22px 0 0 36px !important;
+    }
+
+    .itemsection1{
+    height: 300px !important;
+    }
+
+    .itemsection2{
+        height: 300px !important;
+    }
+
+    .itemsection3{
+        height: 300px !important;
+    }
+
+    .titlemerch{
+        font-size: 36px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1400px){
+
+}
+
 /* Main Section ---------------------------------------------------------------- */
 
 .bannermain2{
@@ -32,7 +277,7 @@
 
 .featuretext{
     color: black;
-    margin: 22px 0 15px 0;
+    margin: 20px 0 15px 0;
     text-align: center;
     text-decoration: underline;
 }
@@ -49,7 +294,11 @@
 
 .feattext{
     margin: 0 0 0 0;
-    padding: 15px 0 0 101px;
+    padding: 15px 0 0 63px;
+}
+
+.form-control{
+    padding: 1px 0 0 6px;
 }
 
 .form-group{
@@ -57,58 +306,57 @@
     width: 67px;
 }
 
+.qtyform-group{
+    margin: 0 15px 0 0;
+}
+
 .imgboxes1{
-    margin: 15px 0 0 82px;
+    margin: 40px 0 0 88px;
     width: 50%;
 }
 
 .imgboxes2{
-    margin: 15px 0 0 82px;
-    width: 50%;
+    margin: 2px 0 0 82px;
+    width: 49%;
 }
 
 .imgboxes3{
-    margin: 15px 0 0 82px;
+    margin: 40px 0 0 89px;
     width: 50%;
 }
 
 .imgboxes4{
-    margin: 15px 0 0 82px;
+    margin: 40px 0 0 88px;
     width: 50%;
 }
 
 .imgboxes5{
-    margin: 15px 0 0 82px;
-    width: 50%;
+    margin: 46px 0 0 106px;
+    width: 40%;
 }
 
 .imgboxes6{
-    margin: 15px 0 0 82px;
-    width: 50%;
+    margin: 40px 0 0 51px;
+    width: 78%;
 }
 
 .imgboxes7{
-    margin: 15px 0 0 82px;
+    margin: 40px 0 0 89px;
     width: 50%;
 }
 
 .imgboxes8{
-    margin: 15px 0 0 82px;
-    width: 50%;
+    margin: 50px 0 24px 105px;
+    width: 40%;
 }
 
 .imgboxes9{
-    margin: 15px 0 0 82px;
-    width: 50%;
+    margin: 15px 0 4px 45px;
+    width: 75%;
 }
 
 .imagebox{
     padding: 0 15px 0 0;
-    /*background-color: grey;*/
-    /*border-radius: 5px;*/
-    /*height: 380px;*/
-    /*margin: 0 30px 10px 0;*/
-    /*width: 830px;*/
 }
 
 .itemsection1{
@@ -117,7 +365,7 @@
      border-style: solid;
      border-radius: calc(.25rem - 1px);
      color: black;
-     height: 300px;
+     height: 330px;
      margin: 15px 10px 0 0;
      width: 300px;
  }
@@ -128,7 +376,7 @@
     border-style: solid;
     border-radius: calc(.25rem - 1px);
     color: black;
-    height: 300px;
+    height: 330px;
     margin: 15px 10px 0 0;
     width: 300px;
 }
@@ -139,7 +387,7 @@
     border-style: solid;
     border-radius: calc(.25rem - 1px);
     color: black;
-    height: 300px;
+    height: 330px;
     margin: 15px 0 0 0;
     width: 300px;
 }
