@@ -2,6 +2,10 @@
 
 @media (min-width: 320px) and (max-width: 359px){
 
+    .fa2{
+        margin-right: 0 !important;
+    }
+
     .membanner{
         margin-bottom: 10px !important;
     }
